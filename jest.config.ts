@@ -1,4 +1,4 @@
-import type { Config } from 'jest';
+import type { Config } from 'jest'
 
 const config: Config = {
   testEnvironment: 'node',
@@ -14,6 +14,6 @@ const config: Config = {
     },
   },
   setupFilesAfterEnv: ['./tests/jest.setup.ts'],
-};
+}
 
-export default config;
+export default config
